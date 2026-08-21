@@ -58,6 +58,7 @@ This file contains features specific to Professional Services Automation (PSA) p
 | auto_dispatch | Automated Dispatch / Assigning | Assign and dispatch tickets automatically based on different types (Round Robin/Capacity) |
 | ticket_areas | Ticket Area Type (Boards, Teams) | Organize tickets by boards or teams |
 | time_tracking | Time Tracking | Track time spent on tickets |
+| timesheet_approval | Timesheet Approval | Submit and approve technician timesheets before they are billed |
 | action_work_types | Action Based Work Types / Automatic Adjustments | Action-based billing or automatic adjustments of time entries to properly match to the business.  (After-Hours Calcs, Proper workrole billing) |
 | sla | Service Level Agreements | Support for service level agreements |
 | custom_sla | Custom SLA's (Per client, per contact) | Client or contact-specific SLAs |
@@ -79,6 +80,8 @@ This file contains features specific to Professional Services Automation (PSA) p
 | add_products | Add Products to Ticket | Associate products with tickets |
 | custom_ticket_info | Custom Ticket Information | Customize new ticket forms |
 | rmm_integration | Deep RMM Integration | Perform RMM actions from tickets |
+| email_integration | Email Integration | Connect a mailbox for sending and receiving from within the platform |
+| accounting_integration | Accounting Integration | Sync invoices and payments with an accounting package |
 | ai_ticketing | AI In Ticketing | AI assistance in ticketing in general |
 | ticket_notes | Public Notes / Private Notes | Support for public and private notes |
 
@@ -153,6 +156,8 @@ This file contains features specific to Professional Services Automation (PSA) p
 | bill_to_company | Bill To Company | Bill to the client company |
 | bill_to_different | Bill To Different People | Bill to different contacts or sites |
 | billing_periods | Billing Periods | Support for different billing periods |
+| expense_tracking | Expense Tracking | Record and bill expenses against tickets, projects or agreements |
+| recurring_billing | Recurring Billing | Automatically bill agreements on a repeating schedule |
 | custom_taxing | Custom Taxing | Configure taxes by location |
 | custom_bill_date | Custom Bill To Date | Set custom billing dates |
 | bill_types | Bill Types | Support for different billing types |
@@ -197,6 +202,7 @@ This file contains features specific to Professional Services Automation (PSA) p
 | ID | Name | Description |
 |----|------|-------------|
 | executive_reports | Executive Reports | Reports for executives |
+| standard_reports | Standard Reports | Built-in, out-of-the-box report library |
 | invoicing_reports | Invoicing Reports | Reports on invoicing |
 | sla_reports | SLA Reports | Reports on SLA performance |
 | dashboards | Dashboards | Dashboards for key metrics |
@@ -317,9 +323,3 @@ This file contains features specific to Professional Services Automation (PSA) p
 | project_handover | Project Handover | Formal handover process for completed projects |
 | project_warranty | Project Warranty | Track warranty periods for project deliverables |
 | project_maintenance | Project Maintenance | Ongoing maintenance for project deliverables |
-
-## Other
-
-| ID | Name | Description |
-|----|------|-------------|
-| mobile_app | Mobile App | Mobile application for on-the-go access | 
