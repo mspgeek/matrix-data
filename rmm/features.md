@@ -47,7 +47,7 @@ This file contains features specific to Remote Monitoring & Management (RMM) pro
 > Some tools offer more advanced monitoring features like application-specific monitoring.
 
 | run_scripts | Run Scripts | Ability to run scripts on endpoints |
-| multi_tenant | Multi-Tenant Support | Ability to manage multiple clients/organizations within a single instance |
+
 | mobile_app | Mobile App | Dedicated mobile application for on-the-go access |
 | api_access | API Access | Provides API for custom integrations |
 | self_service_portal | Self-Service Portal | Portal for end-users to request support or access resources |
@@ -139,6 +139,10 @@ This file contains features specific to Remote Monitoring & Management (RMM) pro
 | tigerpaw | Tigerpaw Integration | Integration with Tigerpaw PSA |
 | atera | Atera Integration | Integration with Atera PSA |
 | servicenow | ServiceNow Integration | Integration with ServiceNow |
+| accelo | Accelo Integration | Integration with Accelo PSA |
+| computicate | Computicate Integration | Integration with Computicate PSA |
+| harmony | Harmony Integration | Integration with Harmony PSA |
+| n-able_msp_manager | N-able MSP Manager Integration | Integration with N-able MSP Manager PSA |
 
 ## Backup & Disaster Recovery
 

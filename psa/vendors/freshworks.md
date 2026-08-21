@@ -11,20 +11,20 @@ type: psa
 - multi_tenant: true
 - mobile_app: true
 - api: true
-- ticket_mgmt: true
-- sla_tracking: true
-- auto_routing: true
+- ticketing: true
+- sla: true
+- auto_dispatch: true
 - knowledge_base: true
 - time_tracking: true
 - timesheet_approval: false
-- project_mgmt: false
+- project_management: false
 - task_tracking: false
 - gantt_charts: false
-- invoicing: false
+- invoice_creation: false
 - recurring_billing: false
 - expense_tracking: false
 - standard_reports: true
-- custom_reports: true
+- custom_reporting: true
 - dashboards: true
 - rmm_integration: false
 - accounting_integration: Via Zapier
