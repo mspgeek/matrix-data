@@ -4,7 +4,7 @@ type: rmm
 ## Nizlo
 - id: nizlo_rmm
 - website: https://nizlo.com/
-- last_updated_date: 11/1/2026
+- last_updated_date: 11/2/2026
 - defaultVisible: false
 
 ### Features
@@ -23,7 +23,8 @@ type: rmm
 - remote_access: true
 - monitoring: true
 - run_scripts: true
-- mobile_app: false
+- mobile_app: true
+  > Nizlo provides technician apps for iPhone and Android to view customers, endpoint health, and alerts.
 - api_access: false
 - self_service_portal: false
 - reporting: true
@@ -36,7 +37,7 @@ type: rmm
 
 - powershell: true
 - bash: Limited
-  > Nizlo documents reusable shell procedures, while Windows PowerShell and CMD are the primary remote job paths.
+  > The Linux x64 and ARM64 monitoring preview supports reviewed Bash jobs; Windows PowerShell and CMD remain the primary remote job paths.
 - python: false
 - script_library: true
 - script_scheduling: true
