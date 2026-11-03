@@ -16,20 +16,20 @@ type: psa
 - multi_tenant: true
 - mobile_app: true
 - api: true
-- ticket_mgmt: true
-- sla_tracking: true
-- auto_routing: Limited
+- ticketing: true
+- sla: true
+- auto_dispatch: Limited
 - knowledge_base: true
 - time_tracking: true
 - timesheet_approval: false
-- project_mgmt: Limited
+- project_management: Limited
 - task_tracking: Limited
 - gantt_charts: false
-- invoicing: true
+- invoice_creation: true
 - recurring_billing: true
 - expense_tracking: true
 - standard_reports: true
-- custom_reports: Limited
+- custom_reporting: Limited
 - dashboards: true
 - rmm_integration: Built-in RMM
 - accounting_integration: true
