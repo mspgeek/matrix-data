@@ -4,7 +4,7 @@ type: rmm
 ## Nizlo
 - id: nizlo_rmm
 - website: https://nizlo.com/
-- last_updated_date: 11/2/2026
+- last_updated_date: 11/20/2026
 - defaultVisible: false
 
 ### Features
@@ -25,7 +25,8 @@ type: rmm
 - run_scripts: true
 - mobile_app: true
   > Nizlo provides technician apps for iPhone and Android to view customers, endpoint health, and alerts.
-- api_access: false
+- api_access: true
+  > Nizlo exposes a tenant-scoped `/api/v1` management API through permission-limited personal access tokens, signed outbound webhooks, and a public OpenAPI 3.1 contract. Service accounts are not currently available.
 - self_service_portal: false
 - reporting: true
 - automation: true
